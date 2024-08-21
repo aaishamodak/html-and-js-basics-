@@ -1,0 +1,31 @@
+<html>
+    <body>
+        <script type="text/javascript">
+            <!--
+                var age = 20;
+                function checkscope( )
+                {
+                    var age = 23;
+                    age = age + 20;
+                    document.write("</br>");
+                    document.write(age);
+                }
+                age = age + 10;
+                document.write("</br>");
+                document.write(age);
+                function checkglobal()
+                {
+                    document.write(age);
+                }
+                document.write("</br>");
+                age = age - 5;
+                document.writeln(age);
+                //-->
+
+        </script>
+        </br>
+        <input type="button" onclick="checkscope()" value="Check" />
+    </br>
+        <input type="button" onclick="checkglobal()" value="Check" />
+    </body>
+</html>
