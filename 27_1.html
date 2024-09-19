@@ -1,0 +1,30 @@
+<html>
+    <head>
+        <title>Function without parameter and without returning datatype</title>
+        <script type="text/javascript">
+            function AreaRect()
+            {
+                var length = parseInt(prompt("Enter the length"));
+                var breadth = parseInt(prompt("Enter the breadth"));
+                var area = length*breadth;
+                //document.getElementById("result").innerHTML = this.responseText;
+                //code works with or without the above line of code 
+                document.write("Area is ",area);
+            }
+            function AddNum()
+            {
+                var num1 = parseInt(prompt("Enter the num1"));
+                var num2 = parseInt(prompt("Enter the num2")); 
+                var total = num1 + num2;
+                document.write("Sum is ",total);
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="button" onclick="AreaRect()" value="Area of Rectangle">
+            <input type="button" onclick="AddNum()" value="Sum">
+            <div id="result"></div>
+        </form>
+    </body>
+</html>
