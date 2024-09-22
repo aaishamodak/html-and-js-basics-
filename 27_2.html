@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>Function with parameter and without returning datatype</title>
+        <script type="text/javascript">
+            function AreaRect(length, breadth)
+            {
+                var area = length * breadth;
+                document.write("Area is ",area);
+            }
+            function AddNum(num1,num2)
+            {
+                var total = num1 + num2;
+                document.write("Sum is ",total);
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <input type="button" onclick="AreaRect(6,7)" value="Area of Rectangle">
+            <input type="button" onclick="AddNum(8,9)" value="Sum">
+            <div id = "result"></div>
+        </form>
+    </body>
+</html>
