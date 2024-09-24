@@ -1,0 +1,29 @@
+<html>
+    <head>
+        <title>Function with returning datatype and without parameter</title>
+        <script type="text/javascript">
+            function AreaRect()
+            {
+                var length = parseInt(prompt("Enter the length"));
+                var breadth = parseInt(prompt("Enter the breadth"));
+                var area = length*breadth;
+                //document.getElementById("result").innerHTML = this.responseText; 
+                //document.write("Area is ",area);
+                return(area);
+            }
+            function AddNum()
+            {
+                var num1 = parseInt(prompt("Enter the num1"));
+                var num2 = parseInt(prompt("Enter the num2")); 
+                var total = num1 + num2;
+                return(total);
+                //document.write("Sum is ",total);
+            }
+            var ans = AreaRect();
+            document.write(ans);
+            document.write("<br>");
+            var ans1 = AddNum();
+            document.write(ans1);
+        </script>
+    </head>
+</html>
