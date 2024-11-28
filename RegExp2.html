@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <title>Javascript RegExp lastIndex property</title>
+    </head>
+    
+    <body>
+        <script type="text/Javascript">
+            var str = "Javascript is an interesting scripting language";
+            var re = new RegExp("script","g");
+
+            re.test(str);
+            document.write("Test 1 - Current Index: " + re.lastIndex);
+
+            re.test(str);
+            document.write("<br/>Test 2 - Current Index: " + re.lastIndex);
+        </script>
+    </body>
+</html>
